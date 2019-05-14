@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>加盟</title>
+    <script src="js/phone.js"></script>
+    <link rel="stylesheet" href="css/Join.css">
+</head>
+
+<body>
+    <div id="all">
+        <ul class="sidenav">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="introduce.html">品牌简介</a></li>
+            <li><a href="course.html">课程类别</a></li>
+            <li><a href="store.html">门店信息</a></li>
+            <li><a href="appointment.html">预约课程</a></li>
+            <li><a class="active" href="Join.html">合作加盟</a></li>
+        </ul>
+        <div id="header">
+            <div class="h-button">
+                <img src="image/classification.png" alt="">
+            </div>
+            <div class="h-cancel">
+                <img src="image/cancel.png" alt="">
+            </div>
+            <div class="h-logo">
+                <img src="image/logo.png" alt="">
+            </div>
+        </div>
+        <div id="content">
+            <div class="title">美数乐加盟申请表</div>
+            <div class="information">
+                <div class="c-line"></div>
+                <div class="i-space"></div>
+                <div class="i-title">
+                    <div class="t-1"></div>
+                    <div class="t-2">个人信息</div>
+                </div>
+                <div class="c-line"></div>
+                <div class="i-input">
+                    <div class="input-1">你的姓名</div>
+                    <div class="input-2">
+                        <input type="text" placeholder="点击输入姓名" id="username">
+                    </div>
+                </div>
+                <div class="c-line"></div>
+                <div class="i-input">
+                    <div class="input-1">你的性别</div>
+                    <div class="check-1">
+                        <input name="sex" type="radio" checked="checked" id='sex1' value="1" />
+                        <label for="sex1" style="cursor:pointer">男士</label>
+                        <input name="sex" type="radio" id='sex2' value="2" />
+                        <label for="sex2" style="cursor:pointer">女士</label>
+                    </div>
+                </div>
+                <div class="c-line"></div>
+                <div class="i-input">
+                    <div class="input-1">你的籍贯</div>
+                    <div class="input-2">
+                        <input type="text" placeholder="点击输入籍贯" id="native">
+                    </div>
+                </div>
+                <div class="c-line"></div>
+                <div class="i-input">
+                    <div class="input-1">出生日期</div>
+                    <div class="input-2">
+                        <input type="text" placeholder="点击选择时间" id="birth">
+                    </div>
+                </div>
+                <div class="c-line"></div>
+                <div class="i-input">
+                    <div class="input-1">手机号码</div>
+                    <div class="input-2">
+                        <input type="text" placeholder="点击输入手机号" id="tel">
+                    </div>
+                </div>
+                <div class="c-line"></div>
+                <div class="i-input">
+                    <div class="input-1">电子邮箱</div>
+                    <div class="input-2">
+                        <input type="text" placeholder="点击输入邮箱" id="email">
+                    </div>
+                </div>
+                <div class="c-line"></div>
+                <div class="c-live">
+                    <div class="live-title">居住城市</div>
+                    <div class="live-list" data-toggle="distpicker">
+                        <div class="list-province">
+                            <select name="" id="province1"></select>
+                        </div>
+                        <div class="live-line"></div>
+                        <div class="list-city">
+                            <select name="" id="city1"></select>
+                        </div>
+                        <div class="live-line"></div>
+                        <div class="list-county">
+                            <select name="" id="county1"></select>
+                        </div>
+                        <div class="live-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="join">
+                <div class="i-title">
+                    <div class="t-1"></div>
+                    <div class="t-2">加盟意向</div>
+                </div>
+                <div class="c-line"></div>
+                <div class="c-live">
+                    <div class="live-title">首选加盟</div>
+                    <div class="live-list" data-toggle="distpicker">
+                        <div class="list-province">
+                            <select name="" id="province2"></select> 
+                        </div>
+                        <div class="live-line"></div>
+                        <div class="list-city">
+                            <select name="" id="city2"></select>      
+                        </div>
+                        <div class="live-line"></div>
+                        <div class="list-county">
+                            <select name="" id="county2"></select>    
+                        </div>
+                        <div class="live-line"></div>
+                    </div>
+                </div>
+                <div class="c-line"></div>
+                <div class="c-live">
+                    <div class="live-title">次选加盟</div>
+                    <div class="live-list" data-toggle="distpicker">
+                        <div class="list-province">
+                            <select name="" id="province3"></select>
+                        </div>
+                        <div class="live-line"></div>
+                        <div class="list-city">
+                            <select name="" id="city2"></select>
+                        </div>
+                        <div class="live-line"></div>
+                        <div class="list-county">
+                            <select name="" id="county3"></select>
+                        </div>
+                        <div class="live-line"></div>
+                    </div>
+                </div>
+                <div class="c-line"></div>
+                <div class="i-input">
+                    <div class="input-1">投入资金</div>
+                    <div class="input-2">
+                        <input type="text" placeholder="点击输入资金    万" id="capital">
+                    </div>
+                </div>
+                <div class="c-line"></div>
+                <div class="i-input">
+                    <div class="input-1">回报年限</div>
+                    <div class="input-2">
+                        <input type="text" placeholder="点击输入年限    年" id="repay_year">
+                    </div>
+                </div>
+                <div class="c-line"></div>
+                <div class="i-input">
+                    <div class="input-1">教育经历</div>
+                    <div class="input-2">
+                        <input type="text" placeholder="点击输入xx年-xx年 学校名称 所学专业" id="education">
+                    </div>
+                </div>
+                <div class="c-line"></div>
+                <div class="i-input">
+                    <div class="input-1">职业履历</div>
+                    <div class="input-2">
+                        <input type="text" placeholder="点击输入xx年-xx年 公司名称 所属行业" id="occupation">
+                    </div>
+                </div>
+                <div class="c-line"></div>
+            </div>
+            <div class="agree">
+                <div class="agree-1">
+                    <img src="image/agree.png" alt="">
+                </div>
+                <div class="agree-2">隐私声明，我已阅读并同意</div>
+            </div>
+            <div class="button" onclick="join()">点击提交 申请信息</div>
+        </div>
+</body>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/distpicker.data.js"></script>
+<script src="js/distpicker.js"></script>
+<script src="js/main.js"></script>
+<script src="js/Join.js"></script>
+
+</html>

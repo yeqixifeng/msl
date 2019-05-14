@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#all{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    min-height: 100%;
+    background: #F4F4F4;
+}
+.sidenav{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 0.78rem;
+    background: white;
+}
+.sidenav li{
+    padding-left:0.3rem; 
+    height: 0.97rem;
+    width: 5.37rem;
+    color:rgba(51,51,51,1);
+    line-height:0.97rem;
+    border-bottom: 0.01rem solid rgba(234,234,234,1);
+
+}
+.sidenav li a{
+    display: block;
+    height: 0.97rem;
+    width: 5.37rem;
+    font-size:0.30rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    text-decoration: none;
+    display:table-cell;
+}
+.sidenav .active{
+    font-size:0.3rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(255,0,0,1);
+}
+#header{
+    background: white;
+    z-index: 10;
+    font-size: 0.16rem;
+    position: fixed;
+    width: 7.5rem;
+    height: 1.01rem;
+    top: 0;
+    left: 0;
+}
+.h-button{
+    position: absolute;
+    top: 0.35rem;
+    left: 0.21rem;
+}
+.h-button img{
+    width: 0.46rem;
+    height: 0.35rem;
+}
+.h-cancel{
+    display: none;
+    position: absolute;
+    top: 0.35rem;
+    left: 0.21rem;
+}
+.h-cancel img{
+    width: 0.38rem;
+    height: 0.38rem;
+}
+.h-logo{
+    position: absolute;
+    top: 0.20rem;
+    left: 2.77rem;
+}
+.h-logo img{
+    width: 1.95rem;
+    height: 0.60rem;
+}
+#content{
+    z-index: 5;
+    font-size: 0.16rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 1.01rem;
+    width: 7.5rem;
+    box-shadow:0px 11px 21px 0px rgba(0, 0, 0, 0.33);
+}
+.banner img{
+    width: 7.5rem;
+    height: 4.9rem;
+}
+.app{
+    width: 7.10rem;
+    height: 8.64rem;
+    background: white;
+    position: relative;
+    top: -1.16rem;
+    left: 0.2rem;
+    border-radius:0.1rem;
+}
+.a-title{
+    width: 7.10rem;
+    height: 1.25rem;
+    font-size:0.42rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(255,0,0,1);
+    line-height: 1.25rem;
+    text-align: center;
+}
+.a-form{
+    display: flex;
+    margin-top: 0.28rem;
+    margin-left: 0.32rem;
+    width:6.38rem;
+    height:0.76rem;
+    border:0.02rem solid rgba(234,234,234,1);
+    border-radius:0.1rem;
+}
+.f-1{
+    width: 1.56rem;
+    text-align: center;
+    line-height: 0.76rem;
+    font-size:0.32rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(102,102,102,1);
+}
+.f-2{
+    margin-top: 0.135rem;
+    width:0.01rem;
+    height:0.49rem;
+    border:0.01rem solid rgba(215,215,215,1);
+}
+.f-3 input{
+    margin-top: 0.03rem;
+    margin-left: 0.18rem;
+    border: 0;
+    font-size:0.32rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    width: 4.5rem;
+    height: 0.70rem;
+}
+.f-3 select{
+    margin-top: 0.03rem;
+    margin-left: 0.18rem;
+    border: 0;
+    font-size:0.32rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    width: 4.5rem;
+    height: 0.70rem;
+    line-height: 0.76rem;
+    background: white;
+}
+.a-button{
+    margin: 0.3rem 0.38rem 0 0.38rem;
+    width:6.34rem;
+    height:1.10rem;
+    background:rgba(255,0,0,1);
+    border-radius:0.1rem;
+    font-size:0.36rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    line-height: 1.1rem;
+}
+.a-agree{
+    height: 0.3rem;
+    margin: 0.32rem 0 0 1.63rem;
+    display: flex; 
+}
+.a-ok{
+    margin-left: 0.1rem;
+}
+.a-good img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.a-ok{
+    font-size:0.26rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(102,102,102,1);
+    line-height: 0.3rem;
+}
+.o-2{
+    color: #FF0000;
+}

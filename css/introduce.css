@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#all{
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.sidenav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 0.78rem;
+    
+}
+.sidenav li{
+    padding-left:0.3rem; 
+    height: 0.97rem;
+    width: 5.37rem;
+    color:rgba(51,51,51,1);
+    line-height:0.97rem;
+    border-bottom: 0.01rem solid rgba(234,234,234,1);
+}
+.sidenav li a{
+    display: block;
+    height: 0.97rem;
+    width: 5.37rem;
+    font-size:0.30rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    text-decoration: none;
+    display:table-cell;
+}
+.sidenav .active{
+    font-size:0.3rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(255,0,0,1);
+}
+#header{
+    background: white;
+    z-index: 10;
+    font-size: 0.16rem;
+    position: fixed;
+    width: 7.5rem;
+    height: 1.01rem;
+    top: 0;
+    left: 0;
+}
+.h-button{
+    position: absolute;
+    top: 0.35rem;
+    left: 0.21rem;
+}
+.h-button img{
+    width: 0.46rem;
+    height: 0.35rem;
+}
+.h-cancel{
+    display: none;
+    position: absolute;
+    top: 0.35rem;
+    left: 0.21rem;
+}
+.h-cancel img{
+    width: 0.38rem;
+    height: 0.38rem;
+}
+.h-logo{
+    position: absolute;
+    top: 0.20rem;
+    left: 2.77rem;
+}
+.h-logo img{
+    width: 1.95rem;
+    height: 0.60rem;
+}
+#content{
+    z-index: 5;
+    font-size: 0.16rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 1.01rem;
+    width: 7.5rem;
+    background: white;
+    box-shadow:0px 11px 21px 0px rgba(0, 0, 0, 0.33);
+}
+.banner img{
+    width: 7.5rem;
+    height: 4.9rem;
+}
+.space1{
+    width: 7.5rem;
+    height: 0.7rem;
+}
+.in-title{
+    display: flex;
+}
+.title-1{
+    margin-left: 0.24rem;
+    width:0.07rem;
+    height:0.35rem;
+    background:rgba(242,0,21,1);
+    border-radius:0.04rem;
+}
+.title-2{
+    margin-top: -0.08rem;
+    margin-left: 0.27rem;
+    font-size:0.38rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(0,0,0,1);
+}
+.in-cont1{
+    width:7rem;
+    margin: 0.5rem 0.25rem 1.15rem 0.25rem;
+    font-size:0.26rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(102,102,102,1);
+}
+.in-cont2{
+    width:7rem;
+    margin: 0.4rem 0.25rem 1.47rem 0.25rem;
+    font-size:0.26rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(102,102,102,1);
+}
+.in-cont3{
+    width:7rem;
+    margin: 0.43rem 0.25rem 0.45rem 0.25rem;
+    font-size:0.26rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(102,102,102,1);
+}
+.in-img1{
+    text-align: center;
+    margin: 0 auto;
+}
+.in-img1 img{
+    width: 4.16rem;
+    height: 4.16rem;
+}
+.in-img2{
+    margin: 0.31rem 0 0.94rem 0;
+}
+.in-img2 img{
+    width: 7.5rem;
+    height: 11.68rem;
+}
+.in-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 7.1rem;
+    margin: 0.58rem 0.2rem 0 0.2rem;
+    padding-bottom: 0.67rem;
+}
+.list{
+    margin-top: 0.3rem;
+}
+.l-1 img{
+    width: 3.42rem;
+    height: 2.2rem;;
+}
+.l-2{
+    text-align: center;
+    margin: 0.40rem 0.3rem 0 0.2rem;
+    font-size:0.26rem;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(102,102,102,1);
+}
+.l-3{
+    margin: 0.26rem 1.48rem 0 1.47rem;
+    width:0.47rem;
+    height:0.01rem;
+    border:0.01rem solid rgba(188,188,188,1);
+    background: #BCBCBC;
+}
